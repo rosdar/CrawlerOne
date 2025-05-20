@@ -1,0 +1,12 @@
+httpx
+beautifulsoup4
+aiosqlite
+
+pytest
+pytest-asyncio
+hypothesis
+
+mypy
+black
+ruff
+pre-commit
