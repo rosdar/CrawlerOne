@@ -1,9 +1,9 @@
-httpx
+requests
 beautifulsoup4
-aiosqlite
+types-beautifulsoup4
+types-requests
 
 pytest
-pytest-asyncio
 hypothesis
 
 mypy
