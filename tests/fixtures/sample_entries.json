@@ -1,0 +1,38 @@
+[
+    {
+        "rank": 23,
+        "title": "Short title",
+        "points": 126,
+        "number_comments": 77
+    },
+    {
+        "rank": 12,
+        "title": "This is - a self-explained example",
+        "points": 66,
+        "number_comments": 27
+    },
+    {
+        "rank": 1,
+        "title": "This is a very long title",
+        "points": 60,
+        "number_comments": 24
+    },
+    {
+        "rank": 1,
+        "title": "This is an even longer title",
+        "points": 1,
+        "number_comments": 2
+    },
+    {
+        "rank": 1,
+        "title": "This is a very long title",
+        "points": 64,
+        "number_comments": 108
+    },
+    {
+        "rank": 4,
+        "title": "",
+        "points": 42,
+        "number_comments": 134
+    }
+]
