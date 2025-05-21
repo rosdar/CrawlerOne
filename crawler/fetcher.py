@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 from requests import RequestException, Response
 
-from crawler.config import BASE_URL
 from crawler.models.entry import Entry
 
 
@@ -45,25 +44,3 @@ def get_first_30_entries(content: str) -> list[Entry]:
         raise ValueError("No entries found!")
 
     return entries[:30]
-
-
-def main() -> None:
-
-    print(f"Fetching {BASE_URL}")
-
-    try:
-        content: Response = fetch_url(BASE_URL)
-    except RequestException as e:
-        print(f"Error fetching URL: {e}")
-        return
-
-    entries = get_first_30_entries(content.text)
-    if entries:
-        for entry in entries:
-            print(f"Entry {entry.rank}: \"{entry.title}\"")
-            print(f"{entry.points} points and {entry.number_comments} comments")
-
-
-if __name__ == "__main__":
-
-    main()
