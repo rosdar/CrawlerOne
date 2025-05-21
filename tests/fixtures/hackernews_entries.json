@@ -1,0 +1,182 @@
+[
+    {
+        "rank": 1,
+        "title": "Deep Learning Is Applied Topology",
+        "points": 126,
+        "number_comments": 77
+    },
+    {
+        "rank": 2,
+        "title": "Show HN: 90s.dev - game maker that runs on the web",
+        "points": 66,
+        "number_comments": 27
+    },
+    {
+        "rank": 3,
+        "title": "If an AI agent can't figure out how your API works, neither can your users",
+        "points": 60,
+        "number_comments": 24
+    },
+    {
+        "rank": 4,
+        "title": "Show HN: A Tiling Window Manager for Windows, Written in Janet",
+        "points": 42,
+        "number_comments": 13
+    },
+    {
+        "rank": 5,
+        "title": "27000 Dragons and 10'000 Lights: GPU-Driven Clustered Forward Renderer",
+        "points": 11,
+        "number_comments": 0
+    },
+    {
+        "rank": 6,
+        "title": "The Fractured Entangled Representation Hypothesis",
+        "points": 7,
+        "number_comments": 1
+    },
+    {
+        "rank": 7,
+        "title": "Show HN: Astra – a new js2exe compiler",
+        "points": 25,
+        "number_comments": 8
+    },
+    {
+        "rank": 8,
+        "title": "The emoji problem (2022)",
+        "points": 219,
+        "number_comments": 29
+    },
+    {
+        "rank": 9,
+        "title": "Launch HN: Opusense (YC X25) – AI assistant for construction inspectors on site",
+        "points": 7,
+        "number_comments": 1
+    },
+    {
+        "rank": 10,
+        "title": "The Lisp in the Cellar: Dependent types that live upstairs [pdf]",
+        "points": 40,
+        "number_comments": 5
+    },
+    {
+        "rank": 11,
+        "title": "A simple search engine from scratch",
+        "points": 165,
+        "number_comments": 23
+    },
+    {
+        "rank": 12,
+        "title": "Making Video Games (Without an Engine) in 2025",
+        "points": 367,
+        "number_comments": 157
+    },
+    {
+        "rank": 13,
+        "title": "llm-d, Kubernetes native distributed inference",
+        "points": 59,
+        "number_comments": 9
+    },
+    {
+        "rank": 14,
+        "title": "Compiling OCaml to the TI-84 CE Calculator",
+        "points": 52,
+        "number_comments": 1
+    },
+    {
+        "rank": 15,
+        "title": "OpenAI Codex Review",
+        "points": 19,
+        "number_comments": 6
+    },
+    {
+        "rank": 16,
+        "title": "DDoSecrets publishes 410 GB of heap dumps, hacked from TeleMessage",
+        "points": 574,
+        "number_comments": 155
+    },
+    {
+        "rank": 17,
+        "title": "Have I Been Pwned 2.0",
+        "points": 744,
+        "number_comments": 248
+    },
+    {
+        "rank": 18,
+        "title": "Show HN: Text to 3D simulation on a map (does history pretty well)",
+        "points": 31,
+        "number_comments": 30
+    },
+    {
+        "rank": 19,
+        "title": "Production tests: a guidebook for better systems and more sleep",
+        "points": 4,
+        "number_comments": 0
+    },
+    {
+        "rank": 20,
+        "title": "Hypervisor as a Library",
+        "points": 5,
+        "number_comments": 0
+    },
+    {
+        "rank": 21,
+        "title": "Jules: An Asynchronous Coding Agent",
+        "points": 448,
+        "number_comments": 182
+    },
+    {
+        "rank": 22,
+        "title": "Show HN: JavaFactory – IntelliJ plugin to generate Java code",
+        "points": 27,
+        "number_comments": 8
+    },
+    {
+        "rank": 23,
+        "title": "Finland announces migration of its rail network to international gauge",
+        "points": 352,
+        "number_comments": 321
+    },
+    {
+        "rank": 24,
+        "title": "RepoRoulette: Randomly sample repositories from GitHub",
+        "points": 13,
+        "number_comments": 2
+    },
+    {
+        "rank": 25,
+        "title": "The Windows Subsystem for Linux is now open source",
+        "points": 1477,
+        "number_comments": 1012
+    },
+    {
+        "rank": 26,
+        "title": "I got fooled by AI-for-science hype–here's what it taught me",
+        "points": 276,
+        "number_comments": 209
+    },
+    {
+        "rank": 27,
+        "title": "What are people doing? Live-ish estimates based on global population dynamics",
+        "points": 234,
+        "number_comments": 83
+    },
+    {
+        "rank": 28,
+        "title": "Why Does the U.S. Always Run a Trade Deficit?",
+        "points": 128,
+        "number_comments": 241
+    },
+    {
+        "rank": 29,
+        "title": "Claude Code SDK",
+        "points": 420,
+        "number_comments": 185
+    },
+    {
+        "rank": 30,
+        "title": "Biff – a batteries-included web framework for Clojure",
+        "points": 90,
+        "number_comments": 21
+    }
+]
