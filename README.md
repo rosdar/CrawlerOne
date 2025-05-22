@@ -15,8 +15,17 @@ pre-commit install        # pre-commit clean
 
 ### Run tests
 
+#### All tests
+
 ```bash
 pytest
+```
+
+#### Unit / Integration tests
+
+```bash
+pytest unit
+pytest integration
 ```
 
 ### Pre-commit
