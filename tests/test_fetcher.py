@@ -7,6 +7,7 @@ from crawler.fetcher import fetch_url, get_first_30_entries
 from tests.conftest import load_html_empty_fixture, load_html_fixture
 
 
+@pytest.mark.unit
 def test_fetch_url_success() -> None:
     mock_response = Mock()
     mock_response.text = "fake content"
@@ -20,6 +21,7 @@ def test_fetch_url_success() -> None:
     assert result.text == "fake content"
 
 
+@pytest.mark.unit
 def test_fetch_url_raises_on_http_error() -> None:
     mock_response = Mock()
     mock_response.raise_for_status.side_effect = HTTPError("Boom!")
@@ -29,6 +31,7 @@ def test_fetch_url_raises_on_http_error() -> None:
             fetch_url("https://example.com")
 
 
+@pytest.mark.unit
 def test_get_first_30_entries_success() -> None:
     html = load_html_fixture()
     entries = get_first_30_entries(html)
@@ -43,12 +46,8 @@ def test_get_first_30_entries_success() -> None:
         assert entry.title != ""
 
 
+@pytest.mark.unit
 def test_get_first_30_entries_no_entries() -> None:
     html = load_html_empty_fixture()
     with pytest.raises(ValueError, match="No entries found!"):
         get_first_30_entries(html)
-
-
-# Less than 30 entries?
-# Malformed data (missing subtext, missing points. missing comments)
-# Non-integer values (e.g., “5.5 points” → test failure)

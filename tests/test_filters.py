@@ -1,3 +1,5 @@
+import pytest
+
 from crawler.filters import (
     filter_long_titles_by_number_comments_asc,
     filter_short_title_entries_with_rest,
@@ -14,6 +16,7 @@ from tests.conftest import (
 # Filter all previous entries with less than or equal to five words in the title, ordered by points.
 
 
+@pytest.mark.unit
 def test_filter_title_short() -> None:
     filtered_entries: list[Entry] = filter_short_title_entries_with_rest(load_sample_entries_fixture())[0]
     titles = [entry.title for entry in filtered_entries]
@@ -25,6 +28,7 @@ def test_filter_title_short() -> None:
     assert "This is - a self-explained example" in titles
 
 
+@pytest.mark.unit
 def test_filter_long_titles_by_number_comments_asc() -> None:
     filtered_sample: list[Entry] = filter_long_titles_by_number_comments_asc(load_sample_entries_fixture())
     correct_sample: list[Entry] = load_sample_entries_filter_long_comments_fixture()
@@ -40,6 +44,7 @@ def test_filter_long_titles_by_number_comments_asc() -> None:
     assert filtered_sample[2].number_comments == correct_sample[2].number_comments
 
 
+@pytest.mark.unit
 def test_filter_short_titles_by_points_asc() -> None:
     filtered_sample: list[Entry] = filter_short_titles_by_points_asc(load_sample_entries_fixture())
     correct_sample: list[Entry] = load_sample_entries_filter_short_points_fixture()
@@ -53,5 +58,3 @@ def test_filter_short_titles_by_points_asc() -> None:
 
     assert filtered_sample[2].title == correct_sample[2].title
     assert filtered_sample[2].points == correct_sample[2].points
-
-# Not testing ordering because there's no added logic
