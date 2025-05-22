@@ -29,5 +29,5 @@ pre-commit run --all-files
 ## Run project
 
 ```bash
-python -m crawler.fetcher
+python -m crawler.main
 ```
