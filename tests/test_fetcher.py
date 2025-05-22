@@ -51,8 +51,3 @@ def test_get_first_30_entries_no_entries() -> None:
     html = load_html_empty_fixture()
     with pytest.raises(ValueError, match="No entries found!"):
         get_first_30_entries(html)
-
-
-# Less than 30 entries?
-# Malformed data (missing subtext, missing points. missing comments)
-# Non-integer values (e.g., “5.5 points” → test failure)

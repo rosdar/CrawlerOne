@@ -58,5 +58,3 @@ def test_filter_short_titles_by_points_asc() -> None:
 
     assert filtered_sample[2].title == correct_sample[2].title
     assert filtered_sample[2].points == correct_sample[2].points
-
-# Not testing ordering because there's no added logic
