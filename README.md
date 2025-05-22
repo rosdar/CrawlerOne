@@ -48,7 +48,7 @@ python -m crawler.main
 ### Intro
 
 This is a small crawler adapted to the HackerNews homepage.
-It crawls the first 30 entries and allows to filter them by title lenght and a couple of ordering options. It also saves the user interaction data with the filters (time and filter used) using SQLite.
+It crawls the first 30 entries and allows to filter them by title length and a couple of ordering options. It also saves the user interaction with the filters (time and filter used) using SQLite.
 
 ### Structure
 
@@ -56,7 +56,7 @@ The project uses functional programming, TDD and as much strong typing as possib
 
 There are 3 parts:
 
-- `crawler` where the program resides
+- `crawler`, where the program resides
 - `tests`
 - config files
 
@@ -66,12 +66,11 @@ The program runs on console:
 
 ### Improvements
 
-This program was build as an assignment, so I didn't go into perfecting it a lot. But I want to list here the improvements I'm aware of and I would make if this was a larger project.
+This program was build as an assignment, so I didn't go into perfecting it a lot. But I want to list here the improvements that I'm aware of, and that I would make if this was a larger project.
 
 #### `crawler/main.py`
 
 The whole user interaction can be a CLI tool, using [Python click](https://click.palletsprojects.com/en/stable/).
-
 The constants used could be placed in a config file and be retrieved when needed, which offers better management.
 
 #### `crawler/fetcher.py`
@@ -96,7 +95,12 @@ I defined some fixtures for the project, for the sake of easier development and 
 
 #### `tests/test_fetcher.py`
 
-I tested a very basic behaviour here: reaching the site, ensuring we raise an error if something goes wrong, getting between 1 and 30 entries and ensuring we raise an error if there were no entries.
+I tested a very basic behaviour here: 
+
+- reaching the site
+- ensuring we raise an error if something goes wrong
+- getting between 1 and 30 entries
+- ensuring we raise an error if there were no entries.
 
 Other cases that I might have covered in a finished project:
 
