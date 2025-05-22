@@ -90,7 +90,7 @@ I used minimal storage with SQLite, without ORM, because the project doesn't req
 The program could use a cache for the entries a part from storing user interaction.
 The db_path is passed as a required parameter to ensure that test use their own DB, and to ensure transparency in the parameters in functions that require storage.
 
-##### `tests/conftest`
+#### `tests/conftest`
 
 I defined some fixtures for the project, for the sake of easier development and to simplify tests.
 
